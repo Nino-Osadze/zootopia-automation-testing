@@ -51,8 +51,10 @@ describe('Zootopia responsive tests', () => {
     cy.get('#cart-items-count').should('have.text', '1')
     cy.contains('კალათა').click()
     cy.get('.cart-item').should('be.visible')
+    // ავტორიზაცია
     cy.autorization(testdata.log_in_email,testdata.log_in_password)
     cy.get('.cart-item').should('be.visible')
+    // გამოსვლა
     cy.contains('გასვლა').should('be.visible')
     cy.contains('გასვლა').click()
    })
