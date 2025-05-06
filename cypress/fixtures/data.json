@@ -1,0 +1,15 @@
+ {
+  "first_name": "SpongeBob SquarePants",
+   "reg_email": "spongebob@bikinibottom.com",
+   "personal_id":"99001122334",
+   "phone":"555999000",
+   "reg_password":"IMakeKrabbyPatties",
+   "reg_password_confirmation":"IMakeKrabbyPatties",
+   "mismatched_password":"ILoveGary456",
+   "log_in_email":"harry.potter@hogwarts.com",
+   "log_in_password":"ExpectoPatronum123"
+
+
+
+
+ }
