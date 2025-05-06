@@ -1,5 +1,7 @@
 
   // ფუნქციები 
+
+  // რეგისტრაციის ველების შევსება
   Cypress.Commands.add('fillRegistrationFields', (first_name, reg_email,personal_id,phone,reg_password,reg_password_confirmation) => {
     cy.contains('შესვლა').should('be.visible')
     cy.contains('შესვლა').click()
